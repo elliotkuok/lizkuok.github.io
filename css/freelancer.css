@@ -674,8 +674,17 @@ ul.bullet-circle {
 }
 
 /* Stretch image to fit window */
-.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+.img-responsive.img-stretch, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
+}
+
+/*Image next to text*/
+
+#dog {
+    width: 100%;
+}
+section.about{
+    padding: 0px;
 }
 
 /* Text over image */
@@ -695,11 +704,4 @@ ul.bullet-circle {
     bottom:0;
     color:#fff;
     height:100px;
-}
-
-/*About Page*/
-.center-justified {
-  text-align: justify;
-  margin: 20px auto;
-  text-align-last: center;
 }
