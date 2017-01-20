@@ -35,6 +35,10 @@ a.active {
     /*color: #25B275;*/
 }
 
+h1 {
+    font-size: 100px;
+}
+
 h1,
 h2,
 h3,
@@ -44,7 +48,7 @@ h6 {
     text-transform: uppercase;
     font-family: 'Bebas Neue', 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #636363;
+    color: #000;
     padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 35px
@@ -589,19 +593,18 @@ header p {
     color: #fff;
 }
 
-.resume-cta {
+#resume-cta {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.resume h3 {
+#resume h2 {
     text-transform: none;
-    font-size: 30px;
-    text-align: center;
+    color: #fff;
 }
 
-.resume p{
+#resume p{
     text-align: center;
 }
 
@@ -688,13 +691,17 @@ ul.bullet-circle {
 #dog {
     width: 100%;
 }
-section.about{
+section#about{
     padding: 0px;
 }
 
-.about p {
+#about h2 {
     text-align: center;
-    line-height: 400px;
+    padding-top: 10%;
+}
+
+#about p {
+    text-align: center;
 }
 
 /* Text over image */
@@ -708,7 +715,7 @@ section.about{
 .text_over_image {
     position: absolute;
     margin: auto;
-    top: 0;
+    top: -900px; /*change when actually placing it*/
     left:0;
     right:0;
     bottom:0;
