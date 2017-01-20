@@ -180,11 +180,6 @@ header .intro-text .skills {
     font-size: 1.5em;
 }
 
-/*.navbar-default .navbar-brand {
-    color: #73986d;
-    text-transform: none;
-} */
-
 .navbar-default {
     background-color: #000;
     border-color: transparent;
@@ -483,88 +478,6 @@ footer .footer-below {
     outline: 0;
 }
 
-.team-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.team-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-.team-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.team-modal .modal-content .item-details {
-    margin: 30px 0;
-}
-
-.team-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.team-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.team-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #32425f;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.team-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #32425f;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.team-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
-}
-
-.astext {
-    background:none;
-    border:none;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    padding:0;
-    text-align: left;
-}
-
-#faq .astext {
-    color: #fff;
-}
-
-#faq a:hover {
-    color: #61b8bb;
-    border-color: #fff;
-}
-
 button {
     font-size: 16px;
     font-weight: normal;
@@ -576,21 +489,6 @@ br {
 
 header p {
     font-size: 20px;
-}
-
-#start-a-group {
-    position: absolute;
-    top: 500px;
-    left: 40%;
-    color: #FFF;
-    font-size: 2.5vw;
-    font-weight: 700;
-    padding-left: inherit;
-    padding-right: inherit;
-}
-
-#start-a-group a {
-    color: #fff;
 }
 
 #resume-cta {
@@ -608,21 +506,12 @@ header p {
     text-align: center;
 }
 
-p.team-box {
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 15px;
+#contact {
+    background-color: #000;
 }
 
-#team p {
-    font-size: 14px;
-    margin: 0px;
-}
-
-#team h4 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding: 0px;
+#contact h2 {
+    color: #fff;
 }
 
 @media (min-width: 1200px) {
@@ -631,55 +520,6 @@ p.team-box {
   }
 }
 
-.list-vertical {
-    list-style-type: none;
-}
-
-.faq-link {
-    border-top-style: solid;
-    border-width: 1px;
-    padding: 20px 200px ;
-    color: #fff;
-}
-
-.faq-list {
-    padding-bottom: 35px;
-}
-
-ol.upper-roman {
-    list-style-type: upper-roman;
-    text-align: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 16px;
-}
-
-ol.lower-roman {
-    list-style-type: lower-roman;
-    text-align: left;
-}
-
-ol.lower-alpha {
-    list-style-type: lower-alpha;
-    text-align: left;
-}
-
-.text-indent {
-    padding-left:40px;
-}
-
-ul.bullet {
-    padding-left:55px;
-}
-
-ul.bullet-circle {
-    padding-left:80px;
-    list-style-type: circle
-}
-
-.email-link {
-    padding-left: 35px;
-}
 
 /* Stretch image to fit window */
 .img-responsive.img-stretch, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
