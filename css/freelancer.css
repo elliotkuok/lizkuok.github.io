@@ -9,6 +9,11 @@
     src: url(fonts/bebasneue-bold.otf);
 }
 
+@font-face {
+    font-family: 'Bebas';
+    src: url(fonts/bebasneue-book.otf);
+}
+
 body {
     overflow-x: hidden;
     background-color: #fff;
@@ -19,6 +24,9 @@ p {
     font-size: 16px;
     margin-left: 35px;
     margin-right: 35px;
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+
 }
 
 p.small {
@@ -526,6 +534,12 @@ header p {
     width: 100%;
 }
 
+/* Landing page edits */
+
+#landing-page h1 {
+    color: #fff;
+}
+
 /*About image next to text*/
 
 #dog {
@@ -544,6 +558,13 @@ section#about{
     text-align: center;
 }
 
+/* Resume */
+
+#resume h4 {
+    color: #fff;
+    text-align: left;
+}
+
 /* Text over image */
 .wrap {
     height:auto;
@@ -552,13 +573,14 @@ section#about{
     position:relative;
 
 }
-.text_over_image {
-    position: absolute;
-    margin: auto;
-    top: -900px; /*change when actually placing it*/
-    left:0;
-    right:0;
-    bottom:0;
-    color:#fff;
-    height:100px;
+
+.tag {
+   float: left;
+   position: absolute;
+   left: 27.5%;
+   top: 28%;
+   z-index: 1000;
+   padding: 5px;
+   color: #fff;
+   font-weight: bold;
 }
