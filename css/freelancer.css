@@ -538,6 +538,34 @@ header p {
 
 #landing-page h1 {
     color: #fff;
+    padding-bottom: 0px;
+}
+
+#landing-page hr {
+    width: 65%; 
+    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    background: #fff;
+}
+
+/* Text over image */
+.wrap {
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+
+.tag {
+   float: left;
+   position: absolute;
+   left: 27.5%;
+   top: 27%;
+   z-index: 1000;
+   padding: 5px;
+   color: #fff;
+   font-weight: bold;
 }
 
 /*About image next to text*/
@@ -565,22 +593,6 @@ section#about{
     text-align: left;
 }
 
-/* Text over image */
-.wrap {
-    height:auto;
-    margin: auto;
-    text-align:center;
-    position:relative;
-
-}
-
-.tag {
-   float: left;
-   position: absolute;
-   left: 27.5%;
-   top: 28%;
-   z-index: 1000;
-   padding: 5px;
-   color: #fff;
-   font-weight: bold;
+#resume p {
+    text-align: left;
 }
