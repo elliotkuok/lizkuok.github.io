@@ -591,10 +591,18 @@ section#about{
 #resume h4 {
     color: #fff;
     text-align: left;
+    padding-left: 90px;
 }
 
 #resume p {
     text-align: left;
+    margin-left: 0px;
+    margin-right: 82px;
+    padding-left: 0;
+}
+
+#resume hr {
+    margin-left: 0px;
 }
 
 #resume .rectangle p {
@@ -618,6 +626,17 @@ section#about{
     height: 80px;
     background: #fff;
     color: #000;
-    margin-left: 38px;
+    margin-left: 90px;
     margin-bottom: 38px;
+    z-index: 1000;
+    position: relative;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    left: 59%;
+    z-index: 0;
 }
