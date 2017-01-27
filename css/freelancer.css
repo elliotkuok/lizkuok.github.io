@@ -466,11 +466,6 @@ footer .footer-below {
     outline: 0;
 }
 
-button {
-    font-size: 16px;
-    font-weight: normal;
-}
-
 br {
         line-height: 200%; 
 }
@@ -627,4 +622,35 @@ section#about{
 
 #resume .design-dev h4 {
     padding-left: 0px;
+}
+
+/* Contact */
+#contact p {
+    color: #fff;
+}
+
+#contact-button {
+    background-color: #fff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#contact-button h3{
+    margin: 5px;
+    padding-top: 22px;
+}
+
+#contact-button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#contact-button:hover {
+    background-color: #61b8bb; /* Green */
+    color: white;
 }
