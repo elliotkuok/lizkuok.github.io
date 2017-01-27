@@ -596,3 +596,28 @@ section#about{
 #resume p {
     text-align: left;
 }
+
+#resume .rectangle p {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#resume .row {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#resume br {
+    line-height: 100%;
+}
+
+.rectangle {
+    width: 100px;
+    height: 80px;
+    background: #fff;
+    color: #000;
+    margin-left: 38px;
+    margin-bottom: 38px;
+}
